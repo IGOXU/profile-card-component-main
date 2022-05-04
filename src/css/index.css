@@ -1,0 +1,87 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+* {
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  align-items: center;
+  background-color: hsl(185deg, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-top.svg");
+  background-position: right 48vw bottom 40vh, left 45vw top 53vh;
+  background-repeat: no-repeat, no-repeat;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.card-container .card {
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  min-width: 350px;
+  width: 350px;
+}
+.card-container .card__head {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  content: url("../images/bg-pattern-card.svg");
+  width: 100%;
+}
+.card-container .card__body {
+  position: relative;
+  text-align: center;
+}
+.card-container .card__body img {
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  left: 126px;
+  position: absolute;
+  top: -6.7rem;
+}
+.card-container .card__body hr {
+  border: none;
+  border-top: 2px solid rgba(233, 233, 233, 0.8);
+}
+.card-container .card__title {
+  color: hsl(229deg, 23%, 23%);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+}
+.card-container .card__title-name {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+.card-container .card__title-name span {
+  color: hsl(0deg, 0%, 59%);
+  margin-left: 0.4rem;
+}
+.card-container .card__title-place {
+  color: hsl(0deg, 0%, 59%);
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+.card-container .card_social {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0.6rem 0;
+  padding: 1rem;
+}
+.card-container .card_social div {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+.card-container .card_social span {
+  color: hsl(0deg, 0%, 59%);
+  display: block;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=index.css.map */
